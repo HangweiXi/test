@@ -1,0 +1,1 @@
+将多序列比对结果trim之后，将序列名字改成前缀相同，再用seqkit对序列基于名称排序，再用geneious prime中tools下的concatenate功能将序列合并
