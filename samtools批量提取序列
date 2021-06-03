@@ -4,3 +4,4 @@ samtools faidx 无法input一个list文件批量提取序列
 read可读取stout并且存为i
 
 genelist文件一般需要使用sed用空格取代换行符
+sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g' file
